@@ -10,7 +10,7 @@ cin>>arr[i];
 }
 int numi = -1999999;
 for (int i = 0; i < n; i++)
-numi=max(numi, arr[i]);
+numi=min(numi, arr[i]);
 cout<<numi;
 }
 
